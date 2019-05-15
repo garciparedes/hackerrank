@@ -2,7 +2,7 @@
 
 ## Description
 
-Set of awesome HackerRank solutions.
+Set of my awesome HackerRank solutions.
 
 ## Contents
 
