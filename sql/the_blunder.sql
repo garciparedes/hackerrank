@@ -1,0 +1,2 @@
+SELECT CEIL(AVG(salary) - AVG(CONVERT(REPLACE(CONVERT(salary, CHAR), '0', ''), UNSIGNED)))
+FROM employees;
