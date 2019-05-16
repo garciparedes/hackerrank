@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.6)
+project(hackerrank)
+set(CMAKE_CXX_STANDARD 11)
 
 file(GLOB_RECURSE files *.cc)
 foreach (file ${files})
