@@ -18,7 +18,7 @@ map<int, int> vector_to_counter(const vector<int> &vec) {
   return counter;
 }
 
-vector<int> missing_numbers(const vector<int>& arr, vector<int> brr) {
+vector<int> missing_numbers(const vector<int>& arr, const vector<int>& brr) {
   vector<int> result;
   map<int, int> arr_counter = vector_to_counter(arr);
   map<int, int> brr_counter = vector_to_counter(brr);
